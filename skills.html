@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Skills</title>
+    <style>
+        body {
+            background-color: #0f172a;
+            color: #f1f5f9;
+            font-family: 'Poppins', sans-serif; /* Modern font */
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* Header and Navigation */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #1e293b;
+            color: #f1f5f9;
+            position: sticky;
+            top: 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        header .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #f1f5f9;
+            text-decoration: none;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #f1f5f9;
+            font-size: 1.1rem;
+            padding: 10px 15px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            color:#818cf8;
+        }
+        /* Skills Section */
+        section {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #f1f5f9;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #94a3b8;
+            margin-bottom: 40px;
+            line-height: 1.8;
+        }
+
+        /* Skills Icons Container */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 20px;
+        }
+
+        .skill {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #1e293b;
+            padding: 20px;
+            border-radius: 10px;
+            width: 120px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .skill:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        .skill img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 10px;
+        }
+
+        .skill span {
+            font-size: 1rem;
+            color: #f1f5f9;
+            text-align: center;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header {
+                padding: 15px 20px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            .container {
+                gap: 20px;
+            }
+
+            .skill {
+                width: 100px;
+                padding: 15px;
+            }
+
+            .skill img {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="projectfolio.html" class="logo">Fadwa Saif</a>
+        <nav>
+            <a href="work.html">Projects</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact Me</a>
+        </nav>
+    </header>
+
+    <section>
+        <div class="title">
+            <h1>Web Development Skills</h1>
+            <p>Constantly learning and evolving in the world of web development. With a strong foundation in both frontend and backend technologies, my experiences have allowed me to develop important skills in my field. My goal is to keep growing by taking on new challenges and exploring advanced concepts to refine my skills and contribute to impactful projects.</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="skill">
+            <img src="html-icon-1451x2048-69sehqrp.png" alt="HTML">
+            <span>HTML</span>
+        </div>
+        <div class="skill">
+            <img src="css.png" alt="CSS">
+            <span>CSS</span>
+        </div>
+        <div class="skill">
+            <img src="bootstrap-5-logo.png" alt="Bootstrap">
+            <span>Bootstrap</span>
+        </div>
+        <div class="skill">
+            <img src="PHP-logo.svg.png" alt="PHP">
+            <span>PHP</span>
+        </div>
+        <div class="skill">
+            <img src="logo-mysql-.png" alt="MySQL">
+            <span>MySQL</span>
+        </div>
+        <div class="skill">
+            <img src="pythoned.png" alt="Python">
+            <span>Python</span>
+        </div>
+        <div class="skill">
+            <img src="JavaScript-logo.png" alt="JavaScript">
+            <span>JavaScript</span>
+        </div>
+        <div class="skill">
+            <img src="figma icon.png" alt="Figma">
+            <span>Figma</span>
+        </div>
+        <div class="skill">
+            <img src="Visual_Studio_Code_1.35_icon.svg.png" alt="VS Code">
+            <span>VS Code</span>
+        </div>
+        <div class="skill">
+            <img src="github2 (2).png" alt="GitHub">
+            <span>GitHub</span>
+        </div>
+    </div>
+</body>
+</html>
